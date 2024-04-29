@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+}
+/* 練習一：處理圖片下方的空隙 */
+.img {
+  display: block;
+}
+p {
+  margin: 0;
+  /* border: 1px solid; */
+}
+
+/* 練習二：圖片 hover 放大效果 */
+.img2:hover {
+  transform: scale(1.2);
+}
