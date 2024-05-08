@@ -1,0 +1,19 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: cadetblue;
+  /* 快速語法：df */
+  /* 只對下一層使用 */
+  display: flex;
+  /* 資訊流 */
+  flex-direction: row;
+  /* 主軸對齊設定 */
+  /* 快速語法：jcc */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: darkgoldenrod;
+}
