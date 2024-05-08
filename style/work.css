@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Sans TC", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 .cardGroup {
   width: 1296px;
+  margin: 50px auto;a
 }
 .cardList {
   display: flex;
@@ -24,6 +22,7 @@
 .cardItem img {
   border-radius: 8px;
   margin-bottom: 16px;
+  border: 1px solid #F1F1F1;
 }
 .cardItem h2 {
   margin-bottom: 8px;
@@ -41,13 +40,14 @@
 }
 .works li {
   border-radius: 16px;
-  background-color: lightgrey;
+  background-color:  #F1F1F1;
+;
   font-size: 16px;
   display: inline-block;
   padding: 4px 12px;
   list-style: none;
 }
-a {
+.works li a {
   text-decoration: none;
   color: #3b3b3b;
 }
