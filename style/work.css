@@ -18,6 +18,8 @@
   width: 636px;
   border-radius: 8px;
   margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
 }
 .cardItem img {
   border-radius: 8px;
@@ -30,6 +32,7 @@
 .cardItem p {
   color: #919191;
   margin-bottom: 24px;
+  flex-grow: 1;
 }
 .text {
   padding: 0 16px;
