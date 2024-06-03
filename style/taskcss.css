@@ -122,3 +122,178 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+header {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+.text-center {
+  text-align: center;
+}
+.slogn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.slogn-text h2 {
+  color: #1e1e1e;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.header-ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 636px;
+  list-style: none;
+}
+.header-ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.header-ul li h3 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b5b5b;
+}
+.header-ul li p {
+  color: #3b3b3b;
+}
+.cardGroup {
+  width: 1296px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  row-gap: 80px;
+  margin-bottom: 72px;
+}
+.cardItem {
+  width: 636px;
+  border-radius: 8px;
+}
+.cardItem img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #f1f1f1;
+}
+.cardItem h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.cardItem p {
+  color: #919191;
+  margin-bottom: 24px;
+}
+.text {
+  padding: 0 16px;
+}
+.tags {
+  display: flex;
+  gap: 16px;
+}
+.tags li {
+  border-radius: 16px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 4px 12px;
+  list-style: none;
+}
+.tags li a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.pagination {
+  display: flex;
+  gap: 16px;
+}
+.pagination li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.pagination li a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true);
+  padding: 80px 0;
+}
+.footer-left {
+  width: 686px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+.footer-left img {
+  width: 120px;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-item-disabled {
+  width: 306px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 24px;
+  border: 1px solid #c1c1c1;
+}
+.footer-item-active {
+  width: 306px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+.footer-item li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.footer-item-disabled a {
+  color: #3b3b3b;
+}
+.footer-item-active a {
+  color: white;
+}
+
+.email {
+  color: #919191;
+
+  text-decoration: none;
+}
