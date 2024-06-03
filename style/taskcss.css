@@ -143,7 +143,7 @@ header {
 .quote-right {
   padding-left: 90%;
 }
-.text-center {
+.serviceList li {
   text-align: center;
 }
 .slogn-text {
@@ -165,10 +165,10 @@ header {
 
 .underLine {
   position: absolute;
-  left: 0;
+  left: 35px;
   bottom: 0;
   z-index: -1;
-  width: 100%;
+  /* width: 100%; */
   /* height: auto; */
 }
 .serviceList {
@@ -187,11 +187,24 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #5b5b5b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* 偽元素 */
+.serviceList li h3::after {
+  margin-top: 4px;
+  content: "";
+  display: block;
+  width: 24px;
+  border-bottom: 2px solid #c1c1c1;
 }
 .serviceList li p {
   color: #3b3b3b;
 }
-.cardGroup {
+.container {
   width: 1296px;
   margin: 120px auto;
   display: flex;
@@ -249,7 +262,7 @@ header {
   display: flex;
   gap: 16px;
 }
-.pagination li {
+.pagination-active {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,8 +272,22 @@ header {
   height: 40px;
   border-radius: 4px;
 }
-.pagination li a {
+.pagination-disabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.pagination-active a {
   color: white;
+  text-decoration: none;
+}
+.pagination-disabled a {
+  color: #3b3b3b;
   text-decoration: none;
 }
 footer {
