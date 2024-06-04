@@ -125,7 +125,12 @@ table {
 body {
   font-family: "Noto Sans", sans-serif;
 }
-header {
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 33.6px;
+}
+.headerWorkPage {
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
@@ -133,6 +138,94 @@ header {
   align-items: center;
   padding: 80px 0;
 }
+.headerIndex {
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerIndexText {
+  width: 30%;
+  display: flex;
+  padding-left: 312px;
+  flex-direction: column;
+}
+.descriptionText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.headerIndexText span {
+  margin: 0 8px;
+  /* width: 100%; */
+  display: block;
+  position: relative;
+  display: inline-block;
+}
+.headerIndexText p {
+  font-size: 20px;
+}
+.headerIndexText h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.indexUnderLine {
+  left: -10px;
+  bottom: 0;
+  width: 120%;
+}
+.smallText {
+  margin-top: 16px;
+}
+.headerIndexImg {
+  /* width: 500px; */
+  /* max-width: 792px; */
+  /* max-height: 792px; */
+  width: 70%;
+}
+.headerIcon {
+  display: flex;
+  gap: 16px;
+  margin-top: 60px;
+}
+.smallText {
+  font-size: 16px;
+  color: #c1c1c1;
+  line-height: 24px;
+}
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+}
+.indexTittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: bold;
+  letter-spacing: 3.84px;
+}
+.section {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+.section img {
+  margin-top: 80px;
+}
+.tagsIndex li {
+  /* background-color: white; */
+  background-color: wheat;
+}
+
 .slogn {
   width: 670px;
   text-align: center;
@@ -165,11 +258,14 @@ header {
 
 .underLine {
   position: absolute;
-  left: 35px;
-  bottom: 0;
+
   z-index: -1;
   /* width: 100%; */
   /* height: auto; */
+}
+.workUnderLine {
+  left: 35px;
+  bottom: 0;
 }
 .serviceList {
   display: flex;
@@ -246,7 +342,6 @@ header {
 }
 .tags li {
   border-radius: 16px;
-  background-color: #f1f1f1;
   font-size: 16px;
   line-height: 24px;
   display: inline-block;
@@ -257,7 +352,12 @@ header {
   text-decoration: none;
   color: #3b3b3b;
 }
-
+.tagsWork li {
+  background-color: #f1f1f1;
+}
+.fontWhite {
+  color: white;
+}
 .pagination {
   display: flex;
   gap: 16px;
