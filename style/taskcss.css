@@ -130,6 +130,9 @@ h2 {
   font-weight: bold;
   line-height: 33.6px;
 }
+a {
+  text-decoration: none;
+}
 .headerWorkPage {
   background-color: #fafafa;
   display: flex;
@@ -221,11 +224,51 @@ h2 {
 .section img {
   margin-top: 80px;
 }
+.tagsIndex {
+  margin-bottom: 40px;
+}
 .tagsIndex li {
   /* background-color: white; */
-  background-color: wheat;
+  background-color: white;
 }
 
+.sectionRight {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 24px;
+  padding: 80px 40px 56px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.sectionRightTextBox {
+  width: 446px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.introButton {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #000000;
+  border-radius: 5px;
+  line-height: 30px;
+}
 .slogn {
   width: 670px;
   text-align: center;
@@ -333,7 +376,7 @@ h2 {
   color: #919191;
   margin-bottom: 24px;
 }
-.text {
+.CardText {
   padding: 0 16px;
 }
 .tags {
@@ -349,7 +392,6 @@ h2 {
   list-style: none;
 }
 .tags li a {
-  text-decoration: none;
   color: #3b3b3b;
 }
 .tagsWork li {
@@ -384,11 +426,9 @@ h2 {
 }
 .pagination-active a {
   color: white;
-  text-decoration: none;
 }
 .pagination-disabled a {
   color: #3b3b3b;
-  text-decoration: none;
 }
 footer {
   display: flex;
@@ -435,7 +475,6 @@ footer {
 .footer-item li a {
   display: flex;
   align-items: center;
-  text-decoration: none;
 }
 .footer-item-disabled a {
   color: #3b3b3b;
@@ -446,6 +485,4 @@ footer {
 
 .email {
   color: #919191;
-
-  text-decoration: none;
 }
