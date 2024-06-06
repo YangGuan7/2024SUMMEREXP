@@ -131,6 +131,14 @@ h2 {
   font-weight: bold;
   line-height: 33.6px;
 }
+h4 {
+  font-size: 28px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
 a {
   text-decoration: none;
 }
@@ -204,10 +212,13 @@ a {
 .serviceArea {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   gap: 80px;
-  margin: 120px 312px;
+  /* margin: 120px 312px; */
   height: 800px;
+  /* width: 100%; */
 }
 .IndexWorkUl {
   display: flex;
@@ -343,10 +354,89 @@ a {
   background-size: cover;
   position: absolute;
   width: 100%;
-  /* height: 100%; */
-  /* left: 0; */
-  /* right: 0; */
+  height: 100%;
+  left: 0;
+  right: 0;
   z-index: -10;
+}
+.serviceUl {
+  display: flex;
+  gap: 24px;
+}
+.serviceUl li {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/service-item-bg.png?raw=true");
+  width: 306px;
+  height: 306px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 24px;
+}
+.serviceUlText {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.serviceUlText h5 {
+  display: inline-block;
+}
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.articleArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 120px 313px;
+}
+.articleText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 8px;
+}
+.articleText div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 416px;
+  margin: 0 auto;
+  gap: 24px;
+}
+.articleUl li {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.articlePagination {
+  display: flex;
+  gap: 16px;
+}
+
+.articlePagination li {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
+.articlePaginationActive {
+  background-color: black;
+}
+.articlePaginationDisable {
+  background-color: #e9e9e9;
 }
 .slogn {
   width: 670px;
